@@ -16,8 +16,8 @@ NEWSPIDER_MODULE = 'basic_scrapy_spider.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'quotes_js_scraper (+http://www.yourdomain.com)'
 
-SCRAPEOPS_API_KEY = 'YOUR_API_KEY'
-SCRAPEOPS_PROXY_ENABLED = True
+SCRAPEOPS_API_KEY = 'd181f23e-dcfa-4e1a-9733-130042b1c42f'
+SCRAPEOPS_PROXY_ENABLED = False
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
@@ -95,3 +95,4 @@ DOWNLOAD_DELAY=0
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
