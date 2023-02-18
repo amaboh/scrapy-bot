@@ -35,7 +35,7 @@ This projects can be done as one or seperately depending on your choice be it to
 
 # Ways to improve this application
 - make a bot capable of extracting any content from any website and using chatGPT to make prompts
-- Make a UI to have an file upload and use chatGPT to make prompts to document or file
+- Make a UI that enables users to upload any file or document and use chatGPT to make prompts to document or file
 
 
 
