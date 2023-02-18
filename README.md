@@ -1,7 +1,7 @@
 Scrape Data and create prompts on LinkedIn profiles
 
 
-This project is a based on my interest on learning from others through interviews and having deep philosophical discussions sometimes on my podcast and sometimes over coffee or beer.
+This project is based on my interest of learning from others through interviews and having deep philosophical discussions sometimes on my podcast and sometimes over coffee or beer.
 
 Project scope:
 We would first be scraping data from a users LinkedIn profile using Scrapy and then implementing another python script using chatGPT API to query the users porfile
