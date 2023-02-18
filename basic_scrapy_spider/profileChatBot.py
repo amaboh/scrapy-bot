@@ -29,4 +29,5 @@ while prompt.lower() != "quit":
         response = completion.choices[0].text
         
         print("Ama ai:", response)
+        print()
         prompt = input("you: ")
